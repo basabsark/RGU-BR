@@ -1,0 +1,467 @@
+body{
+    display: block;
+    background-image: url(../images/rgu-theme2.png);
+    background-repeat: no-repeat;
+    top: 0%;
+    margin: 0 auto;
+    width: 1300px;
+    height: 768px;
+}
+
+/* Header Section */
+header{
+    display: block;
+    margin-top: 35px;
+}
+
+.left{
+    display: block;
+}
+
+.logo{
+    width: 160px;
+    height: auto;
+}
+
+.right{
+    display: block;
+}
+
+.menu-bar{
+    display: block;
+    float: right;
+    margin-top: -70px;
+    margin-left: 100px;
+    margin-right: 0px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.whatsapp-icon{
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#contect-section{
+    display: ;
+    float: ;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.content-left{
+    display: block;
+    /* background-color: #fff; */
+    margin-top: 0;
+    width: 800px;
+    height: auto;
+    font-size: 18px;
+}
+
+.content-left-title{
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+.content-right{
+    display: block;
+    /* background-color: #fff; */
+    /* padding: 10px; */
+    float: right;
+    margin-top: -600px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+}
+
+.about-university{
+    display: block;
+    font-size: 50px;
+    margin-top: 400px;
+    font-weight: bold;
+}
+
+.about-university-title{
+
+}
+
+.about-university-des{
+    font-size: 20px;
+}
+
+hr{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+/* Footer section of website */
+footer{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+
+#footer-section{
+    display: block;
+}
+
+.left-footer{
+    display: block;
+    font-size: 16px;
+}
+
+.right-footer{
+    display: flex;
+    float: right;
+    font-size: 16px;
+    margin-top: -170px;
+}
+
+.product-list{
+    display: block;
+    line-height: 18px;
+}
+
+.product-title{
+    display: block;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.product-items{
+    display: block;
+    font-weight: lighter;
+    font-size: 16px;
+    margin-left: 0;
+}
+
+.product-list ul li{
+    display: block;
+    padding: 7px;
+}
+
+.fa-whatsapp{
+    color: #000;
+    font-weight: bold;
+}
+
+/* Copyright & Policy Section */
+#site-info-section{
+    display: block;
+    margin-top: 150px;
+}
+
+.copyright-left{
+    display: block;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.social-right{
+    display: block;
+    float: right;
+    margin-top: -58px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.social-right a{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+@media screen and (max-width:800px){
+    body{
+        display: block;
+        background-image: url(../images/sn-gradient.png);
+        background-repeat: no-repeat;
+        top: 0%;
+        margin: 0px auto;
+        width: 650px;
+        height: 768px;
+    }
+
+    /* Header Section */
+    header{
+        display: block;
+        margin-top: 30px;
+    }
+
+    .left{
+        display: block;
+    }
+
+    .logo{
+        width: 130px;
+        height: auto;
+    }
+
+    .right{
+        display: block;
+    }
+
+    .menu-bar{
+        display: block;
+        float: right;
+        margin-top: -52px;
+        margin-left: 0px;
+    }
+
+    ul li{
+        display: inline-block;
+    }
+
+    ul li a{
+        display: block;
+        text-decoration: none;
+        color: #000;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+
+    .whatsapp-icon{
+        color: #000;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    hr{
+        margin-top: 10%;
+        margin-bottom: 5%;
+        }
+    
+    /* Footer section of website */
+    footer{
+        display: block;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #footer-section{
+        display: block;
+    }
+
+    .left-footer{
+        display: inline-block;
+        font-size: 15px;
+        width: 80%;
+    }
+
+    .moto{
+        font-size: 13px;
+    }
+
+    .right-footer{
+        display: flex;
+        float: right;
+        font-size: 15px;
+        margin-top: -170px;
+    }
+
+    .product-list{
+        display: block;
+        line-height: 15px;
+    }
+
+    .product-title{
+        display: block;
+        font-weight: bold;
+        margin-top: 65px;
+    }
+
+    .product-items{
+        display: block;
+        font-weight: lighter;
+        font-size: 15px;
+        margin-left: 0;
+    }
+
+    .product-list ul li{
+        display: block;
+        padding: 7px;
+    }
+
+    .fa-whatsapp{
+        color: #000;
+        font-weight: bold;
+    }
+
+    /* Copyright & Policy Section */
+    #site-info-section{
+        display: block;
+        margin-top: 80px;
+    }
+
+    .copyright-left{
+        display: block;
+        margin-top: 50px;
+        font-size: 14px;
+    }
+
+    .social-right{
+        display: block;
+        float: right;
+        margin-top: -50px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+
+    .social-right a{
+        font-size: 15px;
+        font-weight: lighter;
+    }
+}
+
+@media screen and (max-width:480px){
+    body{
+        display: block;
+        background-image: url(../images/sn-gradient.png);
+        background-repeat: no-repeat;
+        top: 0%;
+        margin: 0px auto;
+        width: 90%;
+        height: 268px;
+    }
+
+    /* Header Section */
+    header{
+        display: block;
+        margin-top: 20px;
+    }
+
+    .left{
+        display: block;
+    }
+    
+    .logo{
+        width: 120px;
+        height: auto;
+    }
+
+    .right{
+        display: block;
+    }
+
+    .menu-bar{
+        display: block;
+        float: right;
+        margin-top: -50px;
+        margin-left: 0px;
+    }
+
+    ul li{
+        display: inline-block;
+    }
+
+    ul li a{
+        display: block;
+        text-decoration: none;
+        color: #000;
+        font-family: 'Roboto', sans-serif;
+        font-size: 19px;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+
+    .whatsapp-icon{
+        color: #000;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    /* Footer section of website */
+    footer{
+        display: block;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #footer-section{
+        display: block;
+    }
+
+    .left-footer{
+        display: inline-block;
+        font-size: 15px;
+        width: 80%;
+    }
+
+    .moto{
+        font-size: 13px;
+    }
+
+    .right-footer{
+        display: flex;
+        float: none;
+        font-size: 85%;
+        margin-top: -50px;
+        margin-left: -14%;
+        margin-bottom: 20px;
+    }
+
+    .product-list{
+        display: block;
+        line-height: 15px;
+    }
+
+    .product-title{
+        display: block;
+        font-weight: bold;
+        margin-top: 80px;
+    }
+
+    .product-items{
+        display: block;
+        font-weight: lighter;
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 0;
+    }
+
+    .product-list ul li{
+        display: block;
+        padding: 7px;
+    }
+
+    .fa-whatsapp{
+        color: #000;
+        font-weight: bold;
+    }
+
+    /* Copyright & Policy Section */
+    #site-info-section{
+        display: block;
+        margin-top: 40px;
+    }
+
+    .copyright-left{
+        display: block;
+        margin-top: 50px;
+        font-size: 13px;
+    }
+
+    .social-right{
+        display: block;
+        float: right;
+        margin-top: -48px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .social-right a{
+        display: block;
+        font-size: 13px;
+        font-weight: lighter;
+    }
+}
